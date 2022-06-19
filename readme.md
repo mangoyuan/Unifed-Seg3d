@@ -58,3 +58,17 @@ CUDA_VISIBLE_DEVICES=0 OMP_NUM_THREADS=1 python nnunet/inference/predict_simple.
  -o ${OUTPUT}/testing \
  -t Task20_OMBTS -tr ${TRAINER} -m 3d_fullres
 ```
+
+## Citation
+
+```
+@article{yuan2020unified,
+  title={Unified generative adversarial networks for multimodal segmentation from unpaired 3D medical images},
+  author={Yuan, Wenguang and Wei, Jia and Wang, Jiabing and Ma, Qianli and Tasdizen, Tolga},
+  journal={Medical Image Analysis},
+  volume={64},
+  pages={101731},
+  year={2020},
+  publisher={Elsevier}
+}
+```
